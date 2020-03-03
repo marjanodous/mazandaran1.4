@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="1dp"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:padding="5dp"
+    android:background="@color/no_color">
+    <RelativeLayout
+        android:id="@+id/layoutmusic"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/shape_back_purple">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="music name"
+            android:layout_margin="5dp"
+            android:textSize="14sp"
+            android:lineSpacingExtra="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:layoutDirection="rtl"
+            android:id="@+id/aya_midanid"/>
+        <ImageView
+            android:id="@+id/img_play"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:elevation="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_play"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backredb"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"/>
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backredt"
+    android:layout_alignParentTop="true"/>\
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:text=" هدف طراحی از این نرم افزار شناخت سریع و آسان مازندران است."
+        android:textColor="@color/colorText"
+        android:textSize="18dp"
+        android:layout_margin="20dp"
+        android:layout_above="@id/programmer"
+        android:id="@+id/hadaf"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="برنامه نویس :"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"
+        android:textSize="18dp"
+        android:id="@+id/programmer"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="سیده سکینه محمدی اصل"
+        android:textColor="@color/colorText"
+        android:textSize="18dp"
+        android:layout_margin="20dp"
+        android:layout_below="@id/programmer"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=" seyedeh.s.m.a@gmail.com"
+        android:textColor="@color/colorText"
+        android:textSize="18dp"
+        android:id="@+id/email"
+        android:layout_below="@id/name"/>
+
+</RelativeLayout>

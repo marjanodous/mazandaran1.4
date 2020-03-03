@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/tarikhche"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_back_green"
+                android:text="@string/tarikhche_title"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/marasem"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/tarikhche"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_back_green2"
+                android:padding="16dp"
+                android:text="@string/marasem"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/akhlaqi"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/marasem"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_back_green"
+                android:padding="16dp"
+                android:text="@string/akhlaqi"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/eteqadt"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/akhlaqi"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_back_green2"
+                android:padding="16dp"
+                android:text="@string/eteqadat"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/makan_ziarati"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/eteqadt"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_back_green"
+                android:padding="16dp"
+                android:text="@string/makan_ziarati"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/qaza"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/makan_ziarati"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_back_green2"
+                android:padding="16dp"
+                android:text="@string/qaza"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/shirini"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/qaza"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_back_green"
+                android:padding="16dp"
+                android:text="@string/shirini"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ahang"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/shirini"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_back_green2"
+                android:padding="16dp"
+                android:text="@string/ahang"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/film"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/ahang"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_back_green"
+                android:padding="16dp"
+                android:text="@string/film"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/about"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/film"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/shape_back_green2"
+                android:padding="16dp"
+                android:text="@string/about"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
